@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+  .GetBingData {
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+}
+
+.LoadNextHub {
+  background:linear-gradient(to bottom, #ca9503 5%, #dab924 100%);
+	background-color:#ca9503;
+}
+
+.GetBingData, .LoadNextHub {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	border-radius:3px;
+	border:2px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:20px 30px;
+	text-decoration:none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.GetBingData:hover, .LoadNextHub.hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+
+.mainBarBing {
+  background:linear-gradient(to bottom, #1f85eb 5%, #80b5ea 100%);
+  background-color:#bddbfa;
+  color:white;
+  padding:20px;position:relative;
+  border-radius: 6px;
+}
+</style>
+
+<div id="mainBarBing" class="mainBarBing">
+  <div style="padding:10px" id="labelForNotifications">Waiting for user input...</div>
+
+  <a id="GetBingData" class="GetBingData">Load data</a>
+
+  <a id="LoadNextHub" class="LoadNextHub">Load next hub</a>
+</div> 
+
+
+</body>
+</html>
